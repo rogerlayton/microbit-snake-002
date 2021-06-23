@@ -1,5 +1,5 @@
 led.toggle(2, 2)
-let time = 300
+let time = 100
 for (let index = 0; index <= 3; index++) {
     basic.pause(time)
     led.toggle(index, 0)
